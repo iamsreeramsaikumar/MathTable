@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Table</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+
+        font-family: calibri;
+    }
+
+    .box1 {
+        border: 3px solid black;
+        height: 88vh;
+        width: 132vh;
+        margin: 30px auto;
+        padding: 20px;
+        background: rgb(73, 67, 67);
+        text-align: center;
+    }
+
+
+
+
+    button:hover {
+        color: white;
+        background: linear-gradient(rgb(56, 48, 38), yellow);
+    }
+
+    h1 {
+        color: white;
+        margin-top: 7px;
+    }
+
+    .btns button {
+        height: 56px;
+        width: 104px;
+        border-radius: 9px;
+        margin: 53px;
+        background: linear-gradient(rgb(255, 145, 0), yellow);
+    }
+
+    hr {
+        margin-top: 28px;
+    }
+
+    p {
+        color: white;
+    }
+
+    /* Responsive */
+    @media screen and (max-width: 1024px) {
+
+        .box1 {
+            border: 3px solid black;
+            height: 86vh;
+            width: 115vh;
+            margin: 30px auto;
+            padding: 20px;
+            background: rgb(73, 67, 67);
+            text-align: center;
+        }
+
+        .btns button {
+            height: 56px;
+            width: 103px;
+            border-radius: 9px;
+            margin: 37px;
+            background: linear-gradient(rgb(255, 145, 0), yellow);
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .box1 {
+            border: 3px solid black;
+            height: 130vh;
+            width: 132vh;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgb(73, 67, 67);
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            margin-top: 7px;
+            font-size: 50px;
+        }
+
+        .btns button {
+            height: 64px;
+            width: 119px;
+            font-size: 17px;
+            border-radius: 9px;
+            margin: 54px;
+            background: linear-gradient(rgb(255, 145, 0), yellow);
+        }
+
+        p {
+            color: white;
+            font-size: 18px;
+        }
+    }
+
+    @media screen and (max-width:425px) {
+        .box1 {
+            border: 3px solid black;
+            height: 243vh;
+            width: 132vh;
+            margin: 30px auto;
+            padding: 20px;
+            background: rgb(73, 67, 67);
+            text-align: center;
+        }
+
+        .btns button {
+            height: 85px;
+            width: 144px;
+            border-radius: 13px;
+            font-size: 26px;
+            margin: 80px;
+            background: linear-gradient(rgb(255, 145, 0), yellow);
+        }
+
+        h1 {
+            color: white;
+            margin-top: 7px;
+            font-size: 62px;
+        }
+
+        p {
+            color: white;
+            font-size: 23px;
+        }
+    }
+
+    @media screen and (max-width:375px) {
+        .box1 {
+            border: 3px solid black;
+            height: 277vh;
+            width: 132vh;
+            margin: 30px 0px !important;
+            padding: 20px;
+            background: rgb(73, 67, 67);
+            text-align: center;
+        }
+
+        .btns button {
+            height: 85px;
+            width: 144px;
+            border-radius: 13px;
+            font-size: 26px;
+            margin: 95px;
+            background: linear-gradient(rgb(255, 145, 0), yellow);
+        }
+
+        h1 {
+            color: white;
+            margin-top: 7px;
+            font-size: 62px;
+        }
+
+        p {
+            color: white;
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (max-width:320px) {
+        .box1 {
+            border: 3px solid black;
+            height: 327vh;
+            width: 132vh;
+            margin: 31px auto;
+            padding: 20px;
+            background: rgb(73, 67, 67);
+            text-align: center;
+        }
+
+        .btns button {
+            height: 85px;
+            width: 144px;
+            border-radius: 13px;
+            font-size: 26px;
+            margin: 73px 144px;
+            background: linear-gradient(rgb(255, 145, 0), yellow);
+        }
+
+        h1 {
+            color: white;
+            margin-top: 7px;
+            font-size: 70px;
+        }
+
+        p {
+            color: white;
+            font-size: 33px;
+        }
+    }
+</style>
+
+<body>
+
+
+    <div class="box1">
+        <h1>Math Tables</h1>
+        <hr>
+        <div class="btns">
+            <button onclick="Onetb(1)">1</button>
+            <button onclick="Onetb(2)">2</button>
+            <button onclick="Onetb(3)">3</button>
+            <button onclick="Onetb(4)">4</button>
+            <button onclick="Onetb(5)">5</button>
+            <button onclick="Onetb(6)">6</button>
+            <button onclick="Onetb(7)">7</button>
+            <button onclick="Onetb(8)">8</button>
+            <button onclick="Onetb(9)">9</button>
+            <button onclick="Onetb(10)">10</button>
+            <button onclick="Onetb(11)">11</button>
+            <button onclick="Onetb(12)">12</button>
+            <button onclick="Onetb(13)">13</button>
+            <button onclick="Onetb(14)">14</button>
+            <button onclick="Onetb(15)">15</button>
+            <button onclick="Onetb(16)">16</button>
+            <button onclick="Onetb(17)">17</button>
+            <button onclick="Onetb(18)">18</button>
+            <button onclick="Onetb(19)">19</button>
+            <button onclick="Onetb(20)">20</button>
+
+        </div>
+        <p><u>developed by</u></p>
+        <p><b>sreeramsaikumar001@gmail.com</b></p>
+        <p><b>srikanthmittapalli63@gmail.com</b></p>
+    </div>
+    <h5 id="tb"></h5>
+    <script>
+        function Onetb(z) {
+            for (i = 1; i <= 10; i++) {
+                document.write(z + "*" + i + "=" + (z * i) + "<br>");
+
+            }
+            document.getElementById("tb").innerHTML = a;
+        }
+
+
+    </script>
+</body>
+
+</html>
